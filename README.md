@@ -34,7 +34,7 @@ Click on the Data Access tab:
 Copy the first link with the SRA Normalized Type and AWS Location:
 ![image](https://github.com/user-attachments/assets/543df29d-2648-46db-a66c-f695591e7897)
 
-#### 2) Download the .fastq files
+#### 2) Download the SRR files
 We will be using VSCode and our remote server to download the files through the command line.
 
 So open up the remote server:
@@ -52,6 +52,9 @@ Go to the terminal and type the command - keep in mind that the URL is the one y
 wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
 ```
 
+When downloading, it should look something like this:
+![image](https://github.com/user-attachments/assets/148f23d9-2722-4885-a4bd-111134779f14)
+
 #### 3) Repeat steps 1 and 2 for the rest of the transcriptomes
 Here are the rest of the commands for easier access:
 ```bash
@@ -63,4 +66,27 @@ wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660044/SRR5660044
 ```bash
 wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660045/SRR5660045
 ```
+Once all are done downloading, your explorer should contain all of them:
+![image](https://github.com/user-attachments/assets/499f1074-446f-40bc-8e74-7afe32e8ef68)
+
+#### 4) Changing the SRR file into FASTQ format using Fasterq-dump
+Now we must change the SRR files we have, into FASTQ format to uncompress all the data we have.
+
+Make sure you have [fasterq-dump](https://rnnh.github.io/bioinfo-notebook/docs/fasterq-dump.html) downloaded. 
+
+Now, we are going to use a command for each SRR file (make sure you are in the same directory as before):
+```bash
+fasterq-dump SRR5660030
+```
+```bash
+fasterq-dump SRR5660033
+```
+```bash
+fasterq-dump SRR5660044
+```
+```bash
+fasterq-dump SRR5660045
+
+
+
 
