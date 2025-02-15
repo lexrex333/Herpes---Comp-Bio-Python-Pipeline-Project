@@ -88,8 +88,13 @@ fasterq-dump SRR5660044
 fasterq-dump SRR5660045
 ```
 
-It will output 2 fastq files:
+It will output 2 fastq files for each SRR file:
+
 ![image](https://github.com/user-attachments/assets/856f1b9e-fed8-4bba-af01-68a7d4d02658)
+
+After doing that to all SRR files, you now have the fastq files you will use for the rest of this project!!
+
+Optional: Organize the fastq files and SRR files into their own directory within the project directory to be more organized.
 
 
 
