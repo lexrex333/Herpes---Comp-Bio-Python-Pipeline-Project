@@ -18,4 +18,19 @@ If you are curious about the study that sequenced these transcriptomes: [Study](
 
 >>>> d. [Donor 3 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896375)
 
+You will come across a page that looks like this: 
+![image](https://github.com/user-attachments/assets/b9904656-ab7e-4a88-bdde-32a3814db863)
+
+You want to click on the SRR number located under Runs:
+![image](https://github.com/user-attachments/assets/fdacf67c-9c99-4a41-b1b9-18b6a8e6d386)
+
+It will then take you to a page that looks like this:
+![image](https://github.com/user-attachments/assets/5e15a5d5-af6b-430b-ad58-f92d2ebaa85b)
+
+Click on the FASTA/FASTQ download tab:
+![image](https://github.com/user-attachments/assets/5e5b06d2-65fa-450f-8069-6ca57015b4fa)
+
+
+
+
 #### 2) 
