@@ -86,6 +86,12 @@ fasterq-dump SRR5660044
 ```
 ```bash
 fasterq-dump SRR5660045
+```
+
+It will output 2 fastq files:
+![image](https://github.com/user-attachments/assets/856f1b9e-fed8-4bba-af01-68a7d4d02658)
+
+
 
 
 
