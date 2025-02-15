@@ -72,7 +72,7 @@ Once all are done downloading, your explorer should contain all of them:
 #### 4) Changing the SRR file into FASTQ format using Fasterq-dump
 Now we must change the SRR files we have, into FASTQ format to uncompress all the data we have.
 
-Make sure you have [fasterq-dump](https://rnnh.github.io/bioinfo-notebook/docs/fasterq-dump.html) downloaded. 
+Make sure you have [fasterq-dump](https://rnnh.github.io/bioinfo-notebook/docs/fasterq-dump.html) installed. 
 
 Now, we are going to use a command for each SRR file (make sure you are in the same directory as before):
 ```bash
