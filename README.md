@@ -96,6 +96,9 @@ After doing that to all SRR files, you now have the fastq files you will use for
 
 Optional: Organize the fastq files and SRR files into their own directory within the project directory to be more organized.
 
+![image](https://github.com/user-attachments/assets/01f76de7-a6eb-4352-a985-179bcc501dfe)
+
+
 
 
 
