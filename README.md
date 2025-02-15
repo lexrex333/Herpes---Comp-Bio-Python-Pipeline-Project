@@ -27,10 +27,11 @@ You want to click on the SRR number located under Runs:
 It will then take you to a page that looks like this:
 ![image](https://github.com/user-attachments/assets/5e15a5d5-af6b-430b-ad58-f92d2ebaa85b)
 
-Click on the FASTA/FASTQ download tab:
-![image](https://github.com/user-attachments/assets/5e5b06d2-65fa-450f-8069-6ca57015b4fa)
+Click on the Data Access tab:
 
+![image](https://github.com/user-attachments/assets/c20a43a6-6556-4e06-8957-b632c704a413)
 
-
+Copy the first link with the SRA Normalized Type and AWS Location:
+![image](https://github.com/user-attachments/assets/543df29d-2648-46db-a66c-f695591e7897)
 
 #### 2) 
