@@ -44,6 +44,8 @@ Optional: Make a directory to put all of your information to be more organized:
 ```bash
 mkdir Python_Pipeline_Project
 ```
+(If you decide to do this, make sure to cd into the directory when downloading the files.)
+
 
 Go to the terminal and type the command - keep in mind that the URL is the one you copied in the previous step, which will be a new URL for each transcriptome: 
 ```bash
@@ -51,4 +53,14 @@ wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
 ```
 
 #### 3) Repeat steps 1 and 2 for the rest of the transcriptomes
+Here are the rest of the commands for easier access:
+```bash
+wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660033/SRR5660033
+```
+```bash
+wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660044/SRR5660044
+```
+```bash
+wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660045/SRR5660045
+```
 
