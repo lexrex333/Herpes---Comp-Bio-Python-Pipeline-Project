@@ -40,6 +40,11 @@ We will be using VSCode and our remote server to download the files through the 
 So open up the remote server:
 ![image](https://github.com/user-attachments/assets/d8c98f75-b92a-4b7e-be09-38dc1e42243f)
 
+Optional: Make a directory to put all of your information to be more organized:
+```bash
+mkdir Python_Pipeline_Project
+```
+
 Go to the terminal and type the command - keep in mind that the URL is the one you copied in the previous step, which will be a new URL for each transcriptome: 
 ```bash
 wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
