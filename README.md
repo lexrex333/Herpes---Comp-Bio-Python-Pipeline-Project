@@ -34,4 +34,15 @@ Click on the Data Access tab:
 Copy the first link with the SRA Normalized Type and AWS Location:
 ![image](https://github.com/user-attachments/assets/543df29d-2648-46db-a66c-f695591e7897)
 
-#### 2) 
+#### 2) Download the .fastq files
+We will be using VSCode and our remote server to download the files through the command line.
+
+So open up the remote server:
+![image](https://github.com/user-attachments/assets/d8c98f75-b92a-4b7e-be09-38dc1e42243f)
+
+Go to the terminal and type the command - keep in mind that the URL is the one you copied in the previous step, which will be a new URL for each transcriptome: 
+```bash
+wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
+```
+
+
