@@ -8,7 +8,7 @@ Throughout this project, we will be using the HCMV transcriptomes of 2 patient d
 If you are curious about the study that sequenced these transcriptomes: [Study](https://pubmed.ncbi.nlm.nih.gov/29158406/).
 
 ## Step 1: Get Raw Data
-1) Get data from SRA:
+#### 1) Go to the SRA page for each transcriptome:
 
 >>>> a. [Donor 1 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896360) 
 
@@ -17,3 +17,5 @@ If you are curious about the study that sequenced these transcriptomes: [Study](
 >>>> c. [Donor 3 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896374)
 
 >>>> d. [Donor 3 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896375)
+
+#### 2) 
