@@ -10,7 +10,10 @@ If you are curious about the study that sequenced these transcriptomes: [Study](
 ## Step 1: Get Raw Data
 1) Get data from SRA:
 
-[Donor 1 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896360) 
-[Donor 1 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896363) 
-[Donor 3 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896374)
-[Donor 3 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896375)
+  1. [Donor 1 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896360) 
+
+  2. [Donor 1 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896363) 
+
+  3. [Donor 3 - 2dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896374)
+
+  4. [Donor 3 - 6dpi](https://www.ncbi.nlm.nih.gov/sra/SRX2896375)
