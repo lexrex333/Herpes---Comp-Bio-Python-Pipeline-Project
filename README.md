@@ -45,4 +45,5 @@ Go to the terminal and type the command - keep in mind that the URL is the one y
 wget https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR5660030/SRR5660030
 ```
 
+#### 3) Repeat steps 1 and 2 for the rest of the transcriptomes
 
