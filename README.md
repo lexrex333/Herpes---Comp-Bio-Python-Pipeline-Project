@@ -42,7 +42,7 @@ So open up the remote server:
 
 Optional: Make a directory to put all of your information to be more organized:
 ```bash
-mkdir Python_Pipeline_Project
+mkdir PipelineProject_Lexi_Avalos 
 ```
 (If you decide to do this, make sure to cd into the directory when downloading the files.)
 
