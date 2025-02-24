@@ -121,17 +121,32 @@ This is necessary because you will need to put all of your downloaded data in th
 6. [Python Wrapper](
    
 #### 3. Add all downloaded data into your directory:
-I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer, directly into the PythonPipeline_Lexi_Avalos directory.
+I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer, directly into the PythonPipeline_Lexi_Avalos directory. It should end up looking like this:
 
-#### 2. Python Wrapper
-You will need to download the [python wrapper] to run this pipeline. 
+![image](https://github.com/user-attachments/assets/8fc47d18-6369-44e0-8813-9253760512f6)
 
-Within this python wrapper, you will need to change the output directory variable (output_dir) to your pathway to your server and change your name: 
+#### 4. Change the output directory at the top of each wrapper:
+Within the [Python Wrapper] : Change the output_dir to match yours:
 
-![image](https://github.com/user-attachments/assets/cd81a28f-bce9-469a-9a0f-bc35fb8a0c99)
+![image](https://github.com/user-attachments/assets/0bea18bb-c278-4b54-a0f1-d97eee42d0dc)
 
-#### 3. Dependencies
+Within the [Sleuth R Script](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/sleuth.R): Change the output_dir to match yours:
+
+![image](https://github.com/user-attachments/assets/3274a4b4-fa76-492a-b1d8-bfb4c88dd31c)
+
+#### 5. Dependencies
 You will need to make sure you have the following working to use this wrapper, a lot of these come with Python when you download [Python](https://www.python.org/downloads/): [sys](https://www.geeksforgeeks.org/python-sys-module/), [os](https://docs.python.org/3/library/os.html), [subprocess](https://www.geeksforgeeks.org/python-subprocess-module/), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [zipfile](https://www.geeksforgeeks.org/working-zip-files-python/), [glob](https://docs.python.org/3/library/glob.html), [shutil](https://docs.python.org/3/library/shutil.html), [SeqIO](https://biopython.org/wiki/SeqIO), and [Entrez](https://biopython.org/docs/1.76/api/Bio.Entrez.html). 
+
+#### 6. RUN IT!
+Using only one command line, it should run:
+```bash
+python3 /home/2025/aavalos4/Herpes---Comp-Bio-Python-Pipeline-Project/Pipeline_analysis.py
+```
+P.S.: You will need to change the pathway to the pathway that you put the python script in to use it. 
+
+#### 7. Examine your log file
+YAY - Hopefully it worked, and you should have a log file that looks like this: 
+
 
 
 
