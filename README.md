@@ -110,7 +110,7 @@ This is necessary because you will need to put all of your downloaded data in th
 #### 2. Make sure everything you need is downloaded:
 1. [fastq](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/fastq)
    
-2. [SRR](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/SRR_file)
+2. [SRR](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/SRR_file) (These are empty, but you need them to run the samples. If you were running your own data, you would already have these SRR number files in your directory.)
 
 3. [conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/conditions.txt)
   
@@ -121,7 +121,7 @@ This is necessary because you will need to put all of your downloaded data in th
 6. [Python Wrapper](
    
 #### 3. Add all downloaded data into your directory:
-I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer.
+I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer, directly into the PythonPipeline_Lexi_Avalos directory.
 
 #### 2. Python Wrapper
 You will need to download the [python wrapper] to run this pipeline. 
@@ -129,10 +129,9 @@ You will need to download the [python wrapper] to run this pipeline.
 Within this python wrapper, you will need to change the output directory variable (output_dir) to your pathway to your server and change your name: 
 
 ![image](https://github.com/user-attachments/assets/cd81a28f-bce9-469a-9a0f-bc35fb8a0c99)
-#### 3. Conditions
-You will need [conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/conditions.txt) and [full_conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/full_conditions.txt) to run in the code. Make sure they are in your PythonPipeline_Name_Name directory!
-#### 4. Dependencies
-You will need to make sure you have sys, os, subprocess, numpy, pandas, zipfile, glob, SeqIO, and Entrez. 
+
+#### 3. Dependencies
+You will need to make sure you have the following working to use this wrapper, a lot of these come with Python when you download [Python](https://www.python.org/downloads/): [sys](https://www.geeksforgeeks.org/python-sys-module/), [os](https://docs.python.org/3/library/os.html), [subprocess](https://www.geeksforgeeks.org/python-subprocess-module/), [numpy](https://numpy.org/), [pandas](https://pandas.pydata.org/), [zipfile](https://www.geeksforgeeks.org/working-zip-files-python/), [glob](https://docs.python.org/3/library/glob.html), [shutil](https://docs.python.org/3/library/shutil.html), [SeqIO](https://biopython.org/wiki/SeqIO), and [Entrez](https://biopython.org/docs/1.76/api/Bio.Entrez.html). 
 
 
 
