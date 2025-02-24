@@ -118,7 +118,7 @@ This is necessary because you will need to put all of your downloaded data in th
  
 5. [sleuth.R](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/sleuth.R)
 
-6. [Python Wrapper](
+6. [Python Wrapper]( (You can add this section to the same directory as the rest of the samples! Just make sure to know the pathway to use it in the command line!)
    
 #### 3. Add all downloaded data into your directory:
 I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer, directly into the PythonPipeline_Lexi_Avalos directory. It should end up looking like this:
@@ -161,7 +161,7 @@ Here we want to see if the reads map to the HCMV genome. So with Bowtie2, we are
 #### Step 6. Using SPAdes to make 2 assemblies
 Using a k-mer size of 77, in this step, SPAdes is making assemblies using the fastqs from Bowtie2. 
 #### Step 7. Now to see which strains each assembly aligns to 
-First, the longest contig from each SPAdes assembly was put into a dictionary. The betaherpesvirinae genomes were downloaded and unzipped. The local database for just the sequences from the Betaherpesvirinae subfamily was then made. It was previously giving 4 blast results for each of the conditions, but a donor part to the code was added to get the longest contig for each donor. Blast will then run, keeping the best alignment for any single query-subject pair of sequences. For the 10 top hits, it should give specific categories for each of them. 
+First, the longest contig from each SPAdes assembly was put into a dictionary. The betaherpesvirinae genomes were downloaded and unzipped. The local database for just the sequences from the Betaherpesvirinae subfamily was then made. It was previously giving 4 blast results for each of the conditions, but a donor part to the code was added to get the longest contig for each donor. Blast will then run, keeping the best alignment for any single query-subject pair of sequences. For the 10 top hits, it should give specific categories for each of them - these categories can be changed. 
 
 It has been noted that improvement could be made to make it faster and more efficient - especially with the files you must download to use it. Improvement shall be made one day in the future :) . 
 
