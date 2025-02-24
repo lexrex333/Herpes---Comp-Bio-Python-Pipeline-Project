@@ -118,7 +118,7 @@ This is necessary because you will need to put all of your downloaded data in th
  
 5. [sleuth.R](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/sleuth.R)
 
-6. [Python Wrapper]( (You can add this section to the same directory as the rest of the samples! Just make sure to know the pathway to use it in the command line!)
+6. [Python Wrapper](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/Pipeline_analysis.py) (You can add this section to the same directory as the rest of the samples! Just make sure to know the pathway to use it in the command line!)
    
 #### 3. Add all downloaded data into your directory:
 I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer, directly into the PythonPipeline_Lexi_Avalos directory. It should end up looking like this:
@@ -126,7 +126,7 @@ I personally did this manually as I dragged the files from my file explorer and 
 ![image](https://github.com/user-attachments/assets/8fc47d18-6369-44e0-8813-9253760512f6)
 
 #### 4. Change the output directory at the top of each wrapper:
-Within the [Python Wrapper] : Change the output_dir to match yours:
+Within the [Python Wrapper](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/Pipeline_analysis.py) : Change the output_dir to match yours:
 
 ![image](https://github.com/user-attachments/assets/0bea18bb-c278-4b54-a0f1-d97eee42d0dc)
 
