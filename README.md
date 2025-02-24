@@ -145,7 +145,7 @@ python3 /home/2025/aavalos4/Herpes---Comp-Bio-Python-Pipeline-Project/Pipeline_a
 P.S.: You will need to change the pathway to the pathway that you put the python script in to use it. 
 
 #### 7. Examine your log file
-YAY - Hopefully it worked, and you should have a log file that looks like this: 
+YAY - Hopefully it worked, and you should have a log file that looks like this: [Pipeline Log](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/PipelineProject.log)
 
 
 ## 3. Extra Info on the Pipeline
