@@ -148,6 +148,24 @@ P.S.: You will need to change the pathway to the pathway that you put the python
 YAY - Hopefully it worked, and you should have a log file that looks like this: 
 
 
+## 3. Extra Info on the Pipeline
+This section is just a little background of how the pipeline is intended to work - it starts at step 2 because that is how the code is labeled:
+#### Step 2. Quantify the TPM in each sample using Kallisto
+In this step, you are getting the HCMV genome from NCBI and then building an index with Kallisto. However, in order to build the index with Kallisto, you must extract the coding sequence (CDS) features from the HCMV genome to use as input for the Kallisto command. (This is the part where you use Entrez.)
+#### Step 3. Quantify the TPM of each CDS in each transcriptome using Kallisto
+Here, each sample (SRR number), condition (dpi), and fastqs were made known by creating places so that they could be grabbed for use. Hence, the txt files for the conditions- which if you were doing your own dataset, you would have to change the conditions file to match your dataset. Then you want to calculate the min, median, mean, and max TPM from the abundance.tsv file, you got from running the kallisto index command, through kallisto. 
+#### Step 4. Using Sleuth to find differentially expressed genes
+Here you will be using the additional Rscript, sleuth.R, to run this section. Make sure to change your pathway or else it will give an error. This part is supposed to be finding the differentially expressed genes between the 2 timepoints and conditions. 
+#### Step 5. Using Bowtie2 for the first step in finding the strains that are most similar to the patient samples
+Here we want to see if the reads map to the HCMV genome. So with Bowtie2, we are making a genome index for HCMV and saving only the reads that map to this HCMV index. Here you are outputting fastq files to be used in the SPAdes step. 
+#### Step 6. Using SPAdes to make 2 assemblies
+Using a k-mer size of 77, in this step, SPAdes is making assemblies using the fastqs from Bowtie2. 
+#### Step 7. Now to see which strains each assembly aligns to 
+First, the longest contig from each SPAdes assembly was put into a dictionary. The betaherpesvirinae genomes were downloaded and unzipped. The local database for just the sequences from the Betaherpesvirinae subfamily was then made. It was previously giving 4 blast results for each of the conditions, but a donor part to the code was added to get the longest contig for each donor. Blast will then run, keeping the best alignment for any single query-subject pair of sequences. For the 10 top hits, it should give specific categories for each of them. 
+
+It has been noted that improvement could be made to make it faster and more efficient - especially with the files you must download to use it. Improvement shall be made one day in the future :) . 
+
+
 
 
 
