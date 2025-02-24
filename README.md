@@ -151,9 +151,9 @@ YAY - Hopefully it worked, and you should have a log file that looks like this: 
 ## 3. Extra Info on the Pipeline
 This section is just a little background of how the pipeline is intended to work - it starts at step 2 because that is how the code is labeled:
 #### Step 2. Quantify the TPM in each sample using Kallisto
-In this step, you are getting the HCMV genome from NCBI and then building an index with Kallisto. However, in order to build the index with Kallisto, you must extract the coding sequence (CDS) features from the HCMV genome to use as input for the Kallisto command. (This is the part where you use Entrez.)
+In this step, you are getting the HCMV genome from NCBI and then building an index with Kallisto. However, in order to build the index with Kallisto, you must extract the coding sequence (CDS) features from the HCMV genome to use as input for the Kallisto command. (This is the step where you use Entrez.)
 #### Step 3. Quantify the TPM of each CDS in each transcriptome using Kallisto
-Here, each sample (SRR number), condition (dpi), and fastqs were made known by creating places so that they could be grabbed for use. Hence, the txt files for the conditions- which if you were doing your own dataset, you would have to change the conditions file to match your dataset. Then you want to calculate the min, median, mean, and max TPM from the abundance.tsv file, you got from running the kallisto index command, through kallisto. 
+Here, each sample (SRR number), condition (dpi), and fastqs were made known by creating places so that they could be grabbed for use. Hence, the dictionary for the fastq and SRR and txt files for the conditions- which if you were doing your own dataset, you would have to change the conditions files to match your dataset. Then you want to calculate the min, median, mean, and max TPM from the abundance.tsv file, you got from running the kallisto index command, through kallisto. 
 #### Step 4. Using Sleuth to find differentially expressed genes
 Here you will be using the additional Rscript, sleuth.R, to run this section. Make sure to change your pathway or else it will give an error. This part is supposed to be finding the differentially expressed genes between the 2 timepoints and conditions. 
 #### Step 5. Using Bowtie2 for the first step in finding the strains that are most similar to the patient samples
