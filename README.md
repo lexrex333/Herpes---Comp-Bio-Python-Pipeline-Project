@@ -7,7 +7,7 @@ Throughout this project, we will be using the HCMV transcriptomes of 2 patient d
 
 If you are curious about the study that sequenced these transcriptomes: [Study](https://pubmed.ncbi.nlm.nih.gov/29158406/).
 
-I have added [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/fastq)![image](https://github.com/user-attachments/assets/7a507b90-c828-4245-963e-c358ee4ef7ae) that is already in fastq format and in a smaller size (10,000 reads) that can be used instead of doing the steps below to get the fastqs. This way it is quicker and more efficient to see if the pipeline works :) ! Please look at section (Step 2: Using sample data) to get help on how to use it. 
+I have added [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/fastq) that is already in fastq format and in a smaller size (10,000 reads) that can be used instead of doing the steps below to get the fastqs. This way it is quicker and more efficient to see if the pipeline works :) ! Please look at section (Step 2: Using sample data) to get help on how to use it. 
 ## Step 1: Get the Data!
 #### 1) Go to the SRA page for each transcriptome:
 
