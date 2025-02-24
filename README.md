@@ -7,7 +7,7 @@ Throughout this project, we will be using the HCMV transcriptomes of 2 patient d
 
 If you are curious about the study that sequenced these transcriptomes: [Study](https://pubmed.ncbi.nlm.nih.gov/29158406/).
 
-I have added [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/Sample_fastq) that is already in fastq format and in a smaller size (10,000 reads) that can be used instead of doing the steps below to get the fastqs. This way it is quicker and more efficient to see if the pipeline works :) ! Please look at section (Step 2: Using sample data) to get help on how to use it. 
+I have added [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/fastq)![image](https://github.com/user-attachments/assets/7a507b90-c828-4245-963e-c358ee4ef7ae) that is already in fastq format and in a smaller size (10,000 reads) that can be used instead of doing the steps below to get the fastqs. This way it is quicker and more efficient to see if the pipeline works :) ! Please look at section (Step 2: Using sample data) to get help on how to use it. 
 ## Step 1: Get the Data!
 #### 1) Go to the SRA page for each transcriptome:
 
@@ -103,9 +103,26 @@ Optional: Organize the fastq files and SRR files into their own directory within
 ## Step 2: Using Sample Data
 You will need to make sure to do this to run this pipeline:
 #### 1. Make a directory to put all of your data:
-For example, for me, it is PythonPipeline_Lexi_Avalos: ![image](https://github.com/user-attachments/assets/04cf7abb-cff0-4470-aa69-5fea8c153958). This is necessary because you will need to put your fastq, SRR, and conditions in here to get started.
-#### 1. Sample Data
-The [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/Sample_fastq) given to you, is in fastq format, and this are the fastqs made from the end of Step 1, but shortened. Download them and make sure they are in your explorer in VSCode. I personally did this manually, as I dragged the files from my file explorer and put them in my VSCode explorer. 
+For example, for me, it is PythonPipeline_Lexi_Avalos:![image](https://github.com/user-attachments/assets/04cf7abb-cff0-4470-aa69-5fea8c153958). 
+
+This is necessary because you will need to put all of your downloaded data in this specific directory.
+
+#### 2. Make sure everything you need is downloaded:
+1. [fastq](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/fastq)
+   
+2. [SRR](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/SRR_file)
+
+3. [conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/conditions.txt)
+  
+4. [full_conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/full_conditions.txt)
+ 
+5. [sleuth.R](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/sleuth.R)
+
+6. [Python Wrapper](
+   
+#### 3. Add all downloaded data into your directory:
+I personally did this manually as I dragged the files from my file explorer and put them in my VSCode explorer.
+
 #### 2. Python Wrapper
 You will need to download the [python wrapper] to run this pipeline. 
 
