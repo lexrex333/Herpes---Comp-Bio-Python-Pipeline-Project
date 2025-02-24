@@ -111,7 +111,7 @@ Within this python wrapper, you will need to change the output directory variabl
 
 ![image](https://github.com/user-attachments/assets/cd81a28f-bce9-469a-9a0f-bc35fb8a0c99)
 #### 3. Conditions
-You will need [conditions.txt] and [full_conditions.txt] to run in the code. Make sure they are in your PythonPipeline_Name_Name directory!
+You will need [conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/conditions.txt) and [full_conditions.txt] to run in the code. Make sure they are in your PythonPipeline_Name_Name directory!
 #### 4. Dependencies
 You will need to make sure you have sys, os, subprocess, numpy, pandas, zipfile, glob, SeqIO, and Entrez. 
 
