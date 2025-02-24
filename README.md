@@ -101,7 +101,9 @@ Optional: Organize the fastq files and SRR files into their own directory within
 
 
 ## Step 2: Using Sample Data
-You will need to make sure you have the following to run this pipeline.
+You will need to make sure to do this to run this pipeline:
+#### 1. Make a directory to put all of your data:
+For example, for me, it is PythonPipeline_Lexi_Avalos: ![image](https://github.com/user-attachments/assets/04cf7abb-cff0-4470-aa69-5fea8c153958). This is necessary because you will need to put your fastq, SRR, and conditions in here to get started.
 #### 1. Sample Data
 The [sample data](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/tree/main/Sample_fastq) given to you, is in fastq format, and this are the fastqs made from the end of Step 1, but shortened. Download them and make sure they are in your explorer in VSCode. I personally did this manually, as I dragged the files from my file explorer and put them in my VSCode explorer. 
 #### 2. Python Wrapper
@@ -114,6 +116,8 @@ Within this python wrapper, you will need to change the output directory variabl
 You will need [conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/conditions.txt) and [full_conditions.txt](https://github.com/lexrex333/Herpes---Comp-Bio-Python-Pipeline-Project/blob/main/full_conditions.txt) to run in the code. Make sure they are in your PythonPipeline_Name_Name directory!
 #### 4. Dependencies
 You will need to make sure you have sys, os, subprocess, numpy, pandas, zipfile, glob, SeqIO, and Entrez. 
+
+
 
 
 
